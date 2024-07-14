@@ -47,10 +47,10 @@ website:
         href: https://github.com/SYSUKili
       - icon: bootstrap
         text: bilibili
-        href: https://github.com/beatrizmilz/blog-en
+        href: SYSUKili/kili_blog
       - icon: book
         text: 知乎
-        href: https://github.com/beatrizmilz/blog-en
+        href: https://www.zhihu.com/people/yue-hui-xing-ming-66
       
 format:
   html:

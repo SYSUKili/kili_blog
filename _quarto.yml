@@ -1,0 +1,77 @@
+project:
+  type: website
+  preview:
+    port: 5000
+website:
+  
+  reader-mode: true
+  title: "Just a BLOG" 
+  repo-url: "https://github.com/SYSUKili?tab=repositories"
+  page-navigation: true
+  description: "This is Kili's personal Blog."
+  site-url: "https://sysukili.netlify.app"
+  favicon: logo.svg
+  open-graph:
+    image: logo.png
+  page-footer:
+    left: "Website made with [Quarto](https://quarto.org/)"
+    right:
+      - icon: github
+        href: https://github.com/SYSUKili
+      - icon: envelope
+        href: sysukili@gmail.com
+
+  navbar:
+    logo: logo.svg
+    search: true
+    right:
+      - text: About
+        menu:
+          - text: English
+            href: about.qmd
+          - text: 中文
+            href: about-zh.qmd
+      - text: Posts/帖子
+        href: posts/index.qmd
+#        menu:
+#          - text: All posts
+#            href: posts/index.qmd
+#          - text: English
+#            href: posts/en.qmd
+#          - text: 中文
+ #           href: posts/zh.qmd
+#      - text: Learning
+#        href: learning/index.qmd
+#      - text: Resume
+      - icon: github
+        href: https://github.com/SYSUKili
+      - icon: bootstrap
+        text: bilibili
+        href: https://github.com/beatrizmilz/blog-en
+      - icon: book
+        text: 知乎
+        href: https://github.com/beatrizmilz/blog-en
+      
+format:
+  html:
+    smooth-scroll: true
+    theme:
+      - Minty
+      - custom.scss
+    link-external-icon: false
+    link-external-newwindow: true
+#    link-external-filter: '^(?:http:|https:)\/\/www\.beamilz\.com\/**'
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
+    code-link: true
+
+editor: visual
+
+comments:
+  giscus:
+    repo: SYSUKili/kili-s-webisite
+
+execute:
+  freeze: true
+
